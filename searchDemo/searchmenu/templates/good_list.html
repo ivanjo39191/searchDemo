@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+menu
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+<ul class="dropdown-menu">
+    <li><a href="{% url 'pchomecrawler' %}">PChome購物中心爬蟲</a></li>
+</ul>
+<div class="row" id="equalheight">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+            {% for good in goods %}
+
+            <div class="col-sm-4 col-md-4">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="{{ good.goodimglink }}" alt="{{ good.name }}" onload="loadImage()">
+                        <div class="caption">
+                            <p>{{ good.goodname }}</p>
+                            <p>價格：{{ good.goodprice }}</p>
+                            <p>類別：{{ good.goodtype }}</a></p>
+                            <p>賣場：{{ good.goodshop }}</p>
+                            <p><a href="{{ good.goodlink }}" target="_blank" class="btn btn-primary" role="button">前往購買</a> <a href="#" class="btn btn-default" role="button">加入追蹤</a></p>
+                        </div>
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+</div>
+</div>
+<div class="paginator" style="text-align: center">
+    <ul class="pagination">
+        <!--上一頁-->
+        <li>
+            {% if page_of_goods.has_previous %}
+                <a href="?page={{ page_of_goods.previous_page_number }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo</span>
+                </a>
+            {% else %}
+                <span aria-hidden="true">&laquo</span>
+            {% endif %}
+        </li>
+        <!--頁碼-->
+        {% for page_num in page_range %}
+            {% if page_num == page_of_goods.number %}
+                <li class="active"><span>{{ page_num }}</span></li>
+            {% else %}
+                {% if page_num == '...' %}
+                    <li><span>{{ page_num }}</span></li>
+                {% else %}
+                    <li><a href="?page={{ page_num }}">{{ page_num }}</a></li>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <!--下一頁-->
+        <li>
+            {% if page_of_goods.has_next %}
+                <a href="?page={{ page_of_goods.next_page_number }}" aria-label="Next">
+                    <span aria-hidden="true">&raquo</span>
+                </a>
+            {% else %}
+                <span aria-hidden="true">&raquo</span>
+            {% endif %}
+        </li>
+    </ul>
+    <p>
+        共有 {{ page_of_goods.paginator.count }} 篇筆商品，
+        當前第 {{ page_of_goods.number }} 頁，
+        共 {{ page_of_goods.paginator.num_pages }} 頁
+    </p>
+</div>
+{% endblock %}
