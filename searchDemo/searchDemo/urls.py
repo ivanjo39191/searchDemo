@@ -20,6 +20,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('search/',include('haystack.urls')),
     path('home/', views.home, name='home'),
     path('searchmenu/', include('searchmenu.urls')),
 ]

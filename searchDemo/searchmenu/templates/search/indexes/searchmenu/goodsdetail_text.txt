@@ -1,0 +1,6 @@
+{{ object.goodname }}
+{{ object.goodprice }}
+{{ object.goodshop }}
+{{ object.goodtype }}
+{{ object.goodlink }}
+{{ object.goodimglink }}

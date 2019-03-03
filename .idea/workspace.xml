@@ -2,13 +2,614 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88dd6157-4ea7-478f-9113-b32bf96ffe00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_cn_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchDemo/searchmenu/templates/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/searchDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/searchDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/Whoosh-2.7.4.dist-info/zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/AUTHORS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/COPYING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/COPYING.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/beautifulsoup4-4.7.1.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_html5lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_htmlparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_lxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/builder/_lxml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/dammit.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/dammit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/diagnose.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/diagnose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/element.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_builder_registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_docs.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_html5lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_htmlparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_lxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_soup.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_soup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/bs4/tests/test_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi-2018.11.29.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/certifi/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet-3.0.4.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/big5freq.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/big5freq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/big5prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/big5prober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/chardistribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/chardistribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/charsetgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/charsetgroupprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/charsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/charsetprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cli/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cli/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cli/chardetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cli/chardetect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/codingstatemachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/codingstatemachine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cp949prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/cp949prober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/escprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/escprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/escsm.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/escsm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/eucjpprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/eucjpprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euckrfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euckrfreq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euckrprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euckrprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euctwfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euctwfreq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euctwprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/euctwprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/gb2312freq.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/gb2312freq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/gb2312prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/gb2312prober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/hebrewprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/hebrewprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/jisfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/jisfreq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/jpcntx.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/jpcntx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langbulgarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langbulgarianmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langcyrillicmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langcyrillicmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langgreekmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langgreekmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langhebrewmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langhebrewmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langhungarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langhungarianmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langthaimodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langthaimodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langturkishmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/langturkishmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/latin1prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/latin1prober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcharsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcharsetprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcsgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcsgroupprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcssm.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/mbcssm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sbcharsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sbcharsetprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sbcsgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sbcsgroupprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sjisprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/sjisprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/universaldetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/universaldetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/utf8prober.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/utf8prober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/chardet/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/django_haystack-2.8.1.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/elasticsearch2_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/elasticsearch2_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/elasticsearch_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/elasticsearch_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/simple_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/simple_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/solr_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/solr_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/generic_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/generic_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/inputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/inputs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/build_solr_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/build_solr_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/clear_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/clear_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/haystack_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/haystack_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/rebuild_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/rebuild_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/update_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/management/commands/update_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/panels.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/panels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/panels/haystack.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/panels/haystack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/search_configuration/schema.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/search_configuration/schema.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/search_configuration/solrconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templates/search_configuration/solrconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/highlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/highlight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/more_like_this.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/templatetags/more_like_this.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/app_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/app_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/geo.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/geo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/highlighting.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/highlighting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/utils/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/LICENSE.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/LICENSE.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.8.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/codec.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/codec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/idnadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/idnadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/intranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/intranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/package_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/package_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/uts46data.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/uts46data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba-0.39.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/idf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/idf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/textrank.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/textrank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/tfidf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/dict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/dict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_emit.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_emit.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_emit.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_emit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_start.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_start.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_trans.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_trans.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/finalseg/prob_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/char_state_tab.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/char_state_tab.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/char_state_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/char_state_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_emit.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_emit.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_emit.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_emit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_start.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_start.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_trans.p" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_trans.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_trans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/prob_trans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/viterbi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/jieba/posseg/viterbi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml-4.3.2.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/ElementInclude.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/ElementInclude.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/_elementpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/_elementpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/cssselect.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/cssselect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/doctestcompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/doctestcompare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/etree.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/etree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/etree_api.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/etree_api.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/ElementSoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/ElementSoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_diffcommand.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_diffcommand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_html5builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_html5builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_setmixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/_setmixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/defs.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/defs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/diff.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/diff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/formfill.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/formfill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/html5parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/html5parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/soupparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/soupparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/usedoctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/html/usedoctest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/__init__.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/__init__.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/c14n.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/c14n.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/config.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/config.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/dtdvalid.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/dtdvalid.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/etree_defs.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/etree_defs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/etreepublic.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/etreepublic.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/htmlparser.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/htmlparser.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exsltconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exsltconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exsltexports.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libexslt/exsltexports.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/DOCBparser.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/DOCBparser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/HTMLparser.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/HTMLparser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/HTMLtree.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/HTMLtree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/SAX.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/SAX.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/SAX2.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/SAX2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/c14n.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/c14n.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/debugXML.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/debugXML.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/dict.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/dict.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/encoding.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/encoding.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/entities.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/entities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/globals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/nanoftp.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/nanoftp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/nanohttp.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/nanohttp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/parserInternals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/parserInternals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/schemasInternals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/schemasInternals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/schematron.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/schematron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/threads.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/threads.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xinclude.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xinclude.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xlink.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xlink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlautomata.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlautomata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlerror.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlerror.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlmemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlmemory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlmodule.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlmodule.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlregexp.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlregexp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemas.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemastypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemastypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlunicode.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlunicode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlwriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xmlwriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpath.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpath.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpathInternals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpathInternals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxml/xpointer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/attributes.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/attributes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/namespaces.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/namespaces.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xslt.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xslt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltexports.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltexports.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/lxml-version.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/lxml-version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/relaxng.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/relaxng.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/schematron.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/schematron.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/tree.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/tree.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/uri.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/uri.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xinclude.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xinclude.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlerror.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlerror.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlparser.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlparser.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlschema.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xmlschema.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xpath.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xpath.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xslt.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/includes/xslt.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/rng/iso-schematron.rng" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/rng/iso-schematron.rng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/lxml.etree.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/lxml.etree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/lxml.etree_api.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/lxml.etree_api.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/pyclasslookup.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/pyclasslookup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/sax.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/sax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/usedoctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/lxml/usedoctest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests-2.21.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/_internal_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/_internal_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/adapters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/certs.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/certs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/sessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/status_codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/status_codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/requests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve-1.8.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/__meta__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/__meta__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/css_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/soupsieve/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_attribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_attribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_contains.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_contains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_custom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_defined.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_extra/test_defined.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_active.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_active.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_at_rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_at_rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_descendant.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_descendant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_escapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_escapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_pseudo_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_pseudo_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_pseudo_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_pseudo_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_visited.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level1/test_visited.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_attribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_attribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_first_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_first_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_focus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_hover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_lang.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_lang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_next_sibling.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_next_sibling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_universal_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level2/test_universal_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_attribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_attribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_checked.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_checked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_disabled.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_disabled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_empty.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_empty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_enabled.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_enabled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_first_of_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_first_of_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_last_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_last_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_last_of_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_last_of_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_namespace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_not.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_last_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_last_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_last_of_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_last_of_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_of_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_nth_of_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_only_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_only_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_only_of_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_only_of_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_root.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_root.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_subsequent_sibling.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_subsequent_sibling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level3/test_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_any_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_any_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_attribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_attribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_current.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_current.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_default.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_focus_visible.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_focus_visible.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_focus_within.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_focus_within.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_future.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_future.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_has.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_has.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_host.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_host.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_host_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_host_context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_in_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_in_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_indeterminate.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_indeterminate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_is.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_is.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_lang.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_lang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_local_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_local_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_matches.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_matches.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_not.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_nth_child.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_nth_child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_optional.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_optional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_out_of_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_out_of_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_past.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_past.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_paused.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_paused.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_placeholder_shown.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_placeholder_shown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_playing.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_playing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_read_only.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_read_only.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_read_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_read_write.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_required.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_required.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_target_within.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_target_within.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_user_invalid.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_user_invalid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_where.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/tests/test_level4/test_where.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3-1.24.1.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/connectionpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_appengine_environ.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/appengine.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/ntlmpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/socks.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/contrib/socks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/filepost.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/filepost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/backports/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/backports/makefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/six.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/six.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/poolmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/retry.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/retry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/ssl_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/timeout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/urllib3/util/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/acore.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/acore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/analyzers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/analyzers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/intraword.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/intraword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/morph.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/morph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/ngrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/ngrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/tokenizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/analysis/tokenizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/fsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/fsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/glob.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/glob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/lev.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/lev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/nfa.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/nfa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/automata/reg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/plaintext.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/plaintext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/whoosh3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/codec/whoosh3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/collectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/collectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/externalsort.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/externalsort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/compound.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/compound.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/filestore.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/filestore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/filetables.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/filetables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/gae.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/gae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/structfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/filedb/structfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/highlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/highlight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/idsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/idsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/dmetaphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/dmetaphone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/isri.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/isri.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/lovins.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/lovins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/morph_en.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/morph_en.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/paicehusk.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/paicehusk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/phonetic.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/phonetic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/porter.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/porter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/porter2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/porter2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/bases.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/bases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/danish.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/danish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/dutch.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/dutch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/english.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/english.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/finnish.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/finnish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/french.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/french.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/german.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/german.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/hungarian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/hungarian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/italian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/italian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/norwegian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/norwegian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/portugese.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/portugese.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/romanian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/romanian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/russian.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/russian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/spanish.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/spanish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/swedish.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/snowball/swedish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/stopwords.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/stopwords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/wordnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/lang/wordnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/legacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/legacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/combo.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/combo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/mcore.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/mcore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/matching/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/multiproc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/multiproc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/dateparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/dateparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/plugins.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/plugins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/syntax.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/syntax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/taggers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/qparser/taggers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/compound.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/compound.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/nested.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/nested.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/positional.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/positional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/qcolumns.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/qcolumns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/qcore.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/qcore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/ranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/ranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/spans.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/spans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/terms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/terms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/query/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/reading.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/reading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/scoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/scoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/searching.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/searching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/spelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/spelling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/base85.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/base85.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/bench.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/bench.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/charset.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/charset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/levenshtein.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/levenshtein.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/relativedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/relativedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/unicode.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/support/unicode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/filelock.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/filelock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/numeric.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/numeric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/numlists.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/numlists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/times.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/times.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/varints.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/varints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/versions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/util/versions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/writing.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/whoosh/writing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchDemo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searchDemo/searchDemo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchDemo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searchDemo/searchDemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchDemo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchDemo/searchmenu/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchmenu/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchDemo/searchmenu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchmenu/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchDemo/searchmenu/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchmenu/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchDemo/searchDemo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchDemo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchDemo/searchmenu/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchmenu/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searchDemo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchDemo/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/searchDemo/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,86 +625,64 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="py" value="8" />
+          <entry key="html" value="7" />
+          <entry key="md" value="2" />
+          <entry key="py" value="17" />
+          <entry key="text" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="Python" value="8" />
+          <entry key="HTML" value="7" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="153" />
-          <entry key="py" value="332" />
+          <entry key="html" value="285" />
+          <entry key="md" value="355" />
+          <entry key="py" value="365" />
+          <entry key="text" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="153" />
-          <entry key="Python" value="332" />
+          <entry key="HTML" value="285" />
+          <entry key="Markdown" value="355" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="365" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="400">
+                <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/models.py">
+        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/search/search.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding>
-                <element signature="e#406#1938#0" />
-                <element signature="e#2010#2940#0" />
-                <element signature="e#3004#4218#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+              <caret selection-end-line="47" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -111,41 +690,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchDemo/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/urls.py">
+        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/search/indexes/searchmenu/goodsdetail_text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="5" column="24" lean-forward="true" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -160,6 +715,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stemminganalyzer</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -168,14 +728,20 @@
       <list>
         <option value="$PROJECT_DIR$/searchDemo/searchmenu/admin.py" />
         <option value="$PROJECT_DIR$/searchDemo/searchmenu/models.py" />
-        <option value="$PROJECT_DIR$/searchDemo/searchDemo/urls.py" />
         <option value="$PROJECT_DIR$/searchDemo/searchDemo/views.py" />
         <option value="$PROJECT_DIR$/searchDemo/searchmenu/urls.py" />
-        <option value="$PROJECT_DIR$/searchDemo/searchDemo/settings.py" />
         <option value="$PROJECT_DIR$/searchDemo/templates/home.html" />
-        <option value="$PROJECT_DIR$/searchDemo/templates/base.html" />
         <option value="$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html" />
         <option value="$PROJECT_DIR$/searchDemo/searchmenu/views.py" />
+        <option value="$PROJECT_DIR$/searchDemo/searchDemo/settings.py" />
+        <option value="$PROJECT_DIR$/searchDemo/searchDemo/urls.py" />
+        <option value="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_cn_backend.py" />
+        <option value="$PROJECT_DIR$/searchDemo/searchmenu/templates/search/saerch.html" />
+        <option value="$PROJECT_DIR$/searchDemo/searchmenu/templates/search/indexes/GoodsDetail/GoodsDetail_text.text" />
+        <option value="$PROJECT_DIR$/searchDemo/searchmenu/search_indexes.py" />
+        <option value="$PROJECT_DIR$/searchDemo/templates/base.html" />
+        <option value="$PROJECT_DIR$/searchDemo/searchmenu/templates/search/search.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -191,12 +757,14 @@
     <option name="width" value="1141" />
     <option name="height" value="641" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,22 +800,28 @@
               <item name="searchDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="searchmenu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="searchDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="searchmenu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="indexes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="searchDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
               <item name="searchDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="searchmenu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="indexes" type="462c0819:PsiDirectoryNode" />
+              <item name="searchmenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="searchDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -259,6 +833,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,6 +845,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends" />
       <recent name="$PROJECT_DIR$/searchDemo/searchmenu" />
     </key>
   </component>
@@ -331,27 +907,27 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +954,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/searchDemo/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -385,20 +968,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/urls.py">
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="534">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/urls.py">
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/jieba/analyse/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#17#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
           </folding>
@@ -407,51 +1032,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/searchDemo/searchDemo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        <state relative-caret-position="381">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/models.py">
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/haystack/backends/whoosh_cn_backend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="61">
+          <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+          <folding>
+            <element signature="e#19#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/search/indexes/searchmenu/goodsdetail_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/searchDemo/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/good_list.html">
+    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/templates/search/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="47" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchDemo/searchmenu/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="e#406#1938#0" />
-            <element signature="e#2010#2940#0" />
-            <element signature="e#3004#4218#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
