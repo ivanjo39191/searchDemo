@@ -159,3 +159,7 @@ schema_fields[field_class.index_fieldname] = TEXT(stored=True, analyzer=ChineseA
 python manage.py rebuild_index
 
 建立好後runserver即可成功搜索
+
+
+### 9.測試網站  
+http://ivanjo39193.pythonanywhere.com/searchmenu/good_list
